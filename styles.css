@@ -270,24 +270,25 @@ body {
 .main-content {
     display: grid;
     grid-template-columns: 1fr 2fr;
-    gap: 12px;
+    gap: 36px;
     align-items: start;
     margin-top: 12px;
 }
 .left-image {
-    max-width: 260px;
     display: flex;
     justify-content: center;
-    align-items: right;
-}
+    align-items: center;
+ }
 .left-image img {
-    max-width: 100%;
+    max-width: 80%;
     width: auto;
     height: auto;
     object-fit: cover;
     border-radius: 18px;
     border: 2px solid var(--primary);
     display: block;
+    margin-left: 36px;
+    margin-right: 48px;
 }
 .main-body {
     min-width: 0;
