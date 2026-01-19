@@ -17,35 +17,66 @@
     </nav>
 
     <main>
-        <h1>Curriculum Vitae</h1>
-        <a href="resources/CV.pdf" download class="download-btn">Download PDF</a>
 
-        <section class="cv-section">
-            <h2>Education</h2>
-            <h3>University of Notre Dame</h3>
-            <h3>St. Norbert College</h3>
-            <p>Content coming soon.</p>
-        </section>
-
-        <section class="cv-section">
-            <h2>Experience</h2>
-            <p>Content coming soon.</p>
-        </section>
-
-        <section class="cv-section">
-            <h2>Teaching Experience</h2>
-            <p>Content coming soon.</p>
-        </section>
-
-        <section class="cv-section">
-            <h2>Presentations</h2>
-            <p>Content coming soon.</p>
-        </section>
-
-        <section class="cv-section">
-            <h2>Technical Skills</h2>
-            <p>Content coming soon.</p>
-        </section>
+        <div class="main-content">
+            <div class = "main-body">
+                <iframe src="resources/CV.pdf" width="100%" height="600px" style="border: none;">
+                    <p>Your browser does not support PDFs. <a href="resources/CV.pdf">Download the PDF</a>.</p>
+                </iframe>
+                <center><a href="resources/CV.pdf" download class="download-btn">Download PDF</a></center>
+            </div>
+            <div class="main-body">
+                <h1>Curriculum Vitae Highlights</h1>
+                <section class="cv-section">
+                    <h2>Education</h2>
+                    <h3>University of Notre Dame</h3>
+                    <h4>Ph.D. in Computer Science, August 2025 - Present</h4>
+                    <h3>St. Norbert College</h3>
+                    <h4>B.S. in Computer Science and Mathematics, May 2024</h4>
+                </section>
+                <section class="cv-section">
+                    <h2>Research Experience</h2>
+                    <h3>University of Notre Dame</h3>
+                    <strong>Persistent Homology</strong>
+                    <ul>
+                        <li>Investigating practical applications of persistent homology transforms for shape analysis</li>
+                        <li>Asking what theoretical guarantees we can provide for these applications</li>
+                    </ul>
+                    <strong>Kymograph Edge Detection</strong>
+                    <ul>
+                        <li> Develop Python-based software to extract length vs time data from kymographs</li>
+                        <li>Identify relevant edges of kymograph by utilizing graph-theoretic image analysis approach</li>
+                    </ul>
+                    <h3>St. Norbert College</h3>
+                    <strong>Poss-Wroble Research Fellowship</strong>
+                    <ul>
+                        <li>Self-propelled research regarding redistricting and evaluation of district maps </li>
+                        <li> Researched limitations of computer generation for district maps</li>
+                        <li>Developed a program to construct random district maps for Iowa based on several redistrictingconstraints </li>
+                        <li>Used program to generate a sample of random district maps </li>
+                        <li>Repurposed historical voting data, to evaluate the constructed maps using the Partisan Gini Index and compared them to the district maps used by Iowa </li>  
+                    </ul>
+                </section>
+                <section class="cv-section">
+                    <h2>Technical Skills</h2>
+                    <strong>Programming Languages:</strong>
+                    <ul>
+                        <li>Python</li>   
+                        <li>C++</li> 
+                        <li>Java</li>
+                        <li>HTML</li>
+                    </ul>
+                    <strong>Libraries and Tools:</strong>
+                    <ul>
+                        <li>LaTeX</li>   
+                        <li>Git</li> 
+                        <li>Numpy</li>
+                        <li>Pandas</li>
+                        <li>Matplotlib</li>
+                    </ul>
+                </section>
+            </div>
+        </div>
     </main>
 </body>
 </html>
